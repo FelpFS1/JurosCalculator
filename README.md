@@ -2,9 +2,9 @@
 
 
 # Ícones - Icons
-:boom: Atualização / Update
-:bug: Resolução de bug / Bugfix
-:sparkles: Nova funcionalidade / New feature
+:boom: Atualização / Update <br>
+:bug: Resolução de bug / Bugfix <br>
+:sparkles: Nova funcionalidade / New feature <br>
 :green_heart: Release
 
 # Sobre - About
