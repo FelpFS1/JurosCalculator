@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    background-color: #abb0c1;
+    
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+header nav{
+    margin: auto 0;
+   
+}
+
+header nav ul{
+    display: flex;
+    
+    
+    
+}
+
+header li{
+    margin-right: 20px;
+    list-style: none;
+    
+    
+   
+}
+header a{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+header a:hover{
+
+    position: relative;
+    bottom: 10px;
+}
+
+
+.compound-interest{
+    width: 70vw;
+    height: auto;
+    text-align: center;
+    background-color: #abb0c1;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .4);
+
+
+}
+
+.compound-interest h3{
+    font-size: 5vw;
+    color: #fff;
+}
+
+.compound-interest .insert{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.compound-interest .insert input{
+    width: 30%;
+    height: 30px;
+    margin: 10px auto;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+    text-align: center;
+    font-size: 1.5rem;
+    
+    
+    
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+
+
+.compound-interest label{
+    
+    width: 30%;
+    position: relative;
+    margin: auto;
+    bottom: 43px;
+    transition: ease-in-out .3s;
+    font-size:calc(0.8vw + 5px);
+    font-weight: bold;
+}
+
+.compound-interest input:focus + label,input:valid + label{
+    bottom: 65px;
+    
+}
+
+
+.btns button{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #83b5c2;
+    margin-bottom: 2rem;
+    
+}
+
+.table{  
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px; 
+    
+}
+.table input{
+    text-align: center;
+    height: 40px;
+    border: none;
+    background-color: #abb0c1;
+}
+
+
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive/resposive.css">
+    <script src="https://kit.fontawesome.com/456995a0f4.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="assets/logoat.png" alt="logo">
+                
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="http://" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li> <a href="http://" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <section class="compound-interest">
+                <h3>Juros compostos</h3>
+                <div class="insert">
+                    <input type="number" name="" id="inicial" required step="0.004">
+                    <label for="inicial">Valor inicial</label>
+                    <input type="number" name="" id="percentage" required step="0.010">
+                    <label for="percentage">Taxa de Juros(%)</label>
+                    <input type="number" name="" id="time-course" required>
+                    <label for="time-course">Período</label>  
+                </div>
+                <div class="btns">
+                    <button onclick="calcular()">Calcular</button>
+                    <button id="btn-clear" onclick="clear()">Limpar</button>
+
+                </div>
+            </section>
+            <section class="results">
+                <div class="table" id="table">
+
+                </div>
+            </section>
+        </main>
+  
+     <script src="main.js"></script>
+</body>
+</html>
