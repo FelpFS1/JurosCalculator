@@ -3,9 +3,6 @@ let percentage = document.querySelector('#percentage')
 let time = document.querySelector('#time-course')
 let inputs = document.querySelector('.table')
 
-
-
-
 inicial.addEventListener("change", function(){
     this.value = parseFloat(this.value).toFixed(2);
  });
@@ -27,9 +24,7 @@ function calcular() {
      }
     for (let i = 0; i < valueTime; i++) {
         let porcento = valueInicial * (valuePercentage / 100)
-        console.log(porcento);
         valueInicial = valueInicial + porcento
-        console.log(valueInicial);
         let y = document.createElement('h3')
         let x = document.createElement('input')
         x.readOnly = true
